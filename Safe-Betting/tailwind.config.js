@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    enabled: true,
+    enabled: false,
     content: ['./public/**/*.html'],
   },
   darkMode: false, // or 'media' or 'class'
@@ -20,9 +20,9 @@ module.exports = {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
-      }
-      
-    },
+    }
+
+  },
   variants: {
     extend: {},
     display: ['responsive', 'group-hover', 'group-focus'],
